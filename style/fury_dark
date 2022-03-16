@@ -1,0 +1,60 @@
+body[id="tpl_blog_blogEntryList"],
+body[id="tpl_blog_entry"] {
+.contentHeader {
+	border: 1px solid #31435d;
+}
+}
+
+body[id="tpl_wcf_user"] {
+.section {
+	border: 1px solid #31435d;
+}
+}
+
+.boxesFooterBoxes .box a {
+	color: #7DC9C5;
+}
+
+.boxesFooterBoxes .box a:hover {
+	color: #0DA9EF;
+}
+
+.boxesFooterBoxes .boxTitle {
+	color: #8494ac !important;
+}
+
+.main > div, .boxesFooterBoxes {
+	background: #171e29;
+}
+
+#main {
+	background-image: url('/media/4/');
+}
+
+.boxesFooter,
+.boxesFooterBoxes,
+.boxesFooterBoxes .box,
+.boxesContentTop .box, .boxesContentBottom .box,
+.main > div,
+.messageList .message {
+	border: 1px solid #31435d;
+}
+
+.boxesFooterBoxes .box {
+	background-color: #1f2b3b;
+}
+
+.messageSidebar .badge_user,
+.messageSidebar .badge_admin,
+.userProfileUserWithCoverPhoto .userProfileUsername + .badge_admin {
+    background-color: #171e29;
+	color: #8494ac;
+}
+	
+
+.content > .section, .content > form, .sectionContainer,
+.boxesSidebarLeft .box:not(.boxBorderless), .boxesSidebarRight .box:not(.boxBorderless),
+.boxesSidebarLeft .box .boxWithEditButton, .boxesSidebarRight .box .boxWithEditButton,
+.boxesContentTop .box, .boxesContentBottom .box {
+  background-color: #1f2b3b;
+}
