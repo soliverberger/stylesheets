@@ -2,6 +2,11 @@
   padding: 20px;
 }
 
+.jiraIssue .jiraOptions {
+  padding: 20px;
+  margin-top: 20px;
+}
+
 body[id="tpl_wbb_thread"] {
 .content > .section {
 	border: none !important;
