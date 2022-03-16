@@ -50,11 +50,14 @@ body[id="tpl_wcf_user"] {
     background-color: #171e29;
 	color: #8494ac;
 }
-	
 
 .content > .section, .content > form, .sectionContainer,
 .boxesSidebarLeft .box:not(.boxBorderless), .boxesSidebarRight .box:not(.boxBorderless),
 .boxesSidebarLeft .box .boxWithEditButton, .boxesSidebarRight .box .boxWithEditButton,
 .boxesContentTop .box, .boxesContentBottom .box {
   background-color: #1f2b3b;
+}
+
+.jiraIssue .jiraOptions {
+  border-top: 1px solid #31435d;
 }
