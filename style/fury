@@ -49,3 +49,7 @@ body[id="tpl_wcf_user"] {
 .messageSidebar .badge_user {
 	color: #374250;
 }
+
+.jiraIssue .jiraOptions {
+  border-top: 1px solid #ddd;
+}
