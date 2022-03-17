@@ -1,3 +1,7 @@
+.pageNavigation li:before {
+	color: #edecdf !important;
+}
+
 body[id="tpl_blog_blogEntryList"],
 body[id="tpl_blog_entry"] {
 .contentHeader {
