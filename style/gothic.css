@@ -87,7 +87,7 @@ body[id="tpl_wcf_user"] {
 .messageReduced .messageTitle a, .messageReduced .messageTitle span, .messageHeaderWrapper a,
 .jiraIssue a, .jiraIssue p, .tabularListRowHead span, .tabularListRowHead .icon,
 .interactiveDropdownItems > li, .interactiveDropdownHeader .interactiveDropdownTitle, .interactiveDropdownShowAll, .interactiveDropdownUserMenuItem .icon, small,
-.boxesContentTop .boxTitle, .boxesContentBottom .boxTitle {
+.boxesContentTop .boxTitle, .boxesContentBottom .boxTitle, .newsDateBadge p {
 	color: #222222 !important;
 	
 }
