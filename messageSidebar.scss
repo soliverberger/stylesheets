@@ -26,14 +26,15 @@
     background-color: #ecf1f7;
     padding-left: 0 !important;
 } 
-        
-.messageSidebar .specialTrophyContainer > ul {
-	justify-content: left;
+  
+.trophySidebar {
+	margin: 10px 0px 0px 0px;
 }
 
 .messageSidebar .messageAuthorContainer:not(:last-child) {
 	margin-bottom: 0px;	
 }
+
 
 .userOnlineGroupMarking3 .messageSidebar {
 	border: solid 1px #7f8c8d;
