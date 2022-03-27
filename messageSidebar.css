@@ -1,0 +1,48 @@
+.messageSidebar {
+	text-align: left;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+}
+
+.userAvatarImage {
+    border-radius: 5px;
+}
+
+.messageSidebar .badge_admin {
+    color: #6bbce4;
+    font-variant: small-caps;
+}
+
+.messageSidebar .badge_user {
+	color: #7f8c8d;
+}
+
+.messageSidebar .badge_mod {
+	color: #e99a1f;
+}
+
+.messageSidebar .badge_admin,
+.messageSidebar .badge_user,
+.messageSidebar .badge_mod {
+    background-color: #ecf1f7;
+    padding-left: 0 !important;
+} 
+        
+.messageSidebar .specialTrophyContainer > ul {
+	justify-content: left;
+}
+
+.messageSidebar .messageAuthorContainer:not(:last-child) {
+	margin-bottom: 0px;	
+}
+
+.userOnlineGroupMarking3 .messageSidebar {
+	border: solid 1px #7f8c8d;
+}
+
+.userOnlineGroupMarking4 .messageSidebar {
+    border: solid 2px #6bbce4;
+}
+
+.userOnlineGroupMarking5 .messageSidebar {
+	border: solid 1px #e99a1f;
+}
