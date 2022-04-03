@@ -1,0 +1,11 @@
+@include screen-lg {
+.auto_footer {
+	display: none;
+}
+}
+
+@include screen-md-down {
+.manuel_footer {
+	display: none;
+}
+}
