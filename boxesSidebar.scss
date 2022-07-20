@@ -1,0 +1,25 @@
+.boxesSidebarLeft .box:not(.boxBorderless), .boxesSidebarRight .box:not(.boxBorderless) {
+	background: #fff;
+    border-top: 3px solid #7DC9C5 !important;
+	border: 1px solid #e5e9f2;
+    border-radius: 8px;
+	box-shadow: 0 6px 6px -6px #777;
+  padding: 0px !important;
+	
+.boxContent {
+	padding: 0px 20px 10px 20px;
+}
+	
+.boxTitle {
+	background: #fafafa;
+	background-image: url("/media/1/");
+    color: #9cacbb;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid #d9dfe5;
+    border-radius: 6px 6px 0 0;
+}
+
+}
