@@ -1,0 +1,45 @@
+.userAvatarImage {
+    border-radius: 5px;
+}
+
+.messageSidebar .badge_admin {
+    color: #6bbce4;
+    font-variant: small-caps;
+}
+
+.messageSidebar .badge_user {
+	color: #7f8c8d;
+}
+
+.messageSidebar .badge_mod {
+	color: #e99a1f;
+}
+
+.messageSidebar .badge_admin,
+.messageSidebar .badge_user,
+.messageSidebar .badge_mod {
+    background-color: #f9fafc;
+    padding-left: 0 !important;
+} 
+
+.messageSidebar .messageAuthorContainer:not(:last-child) {
+	margin-bottom: 0px;	
+}
+
+  
+.trophySidebar {
+	margin: 20px 0px 0px 0px;
+}
+
+
+.userOnlineGroupMarking3 .messageSidebar {
+	border: solid 1px #7f8c8d;
+}
+
+.userOnlineGroupMarking4 .messageSidebar {
+    border: solid 2px #6bbce4;
+}
+
+.userOnlineGroupMarking5 .messageSidebar {
+	border: solid 1px #e99a1f;
+}
