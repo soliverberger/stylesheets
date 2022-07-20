@@ -1,0 +1,55 @@
+#tpl_clan_clanPage, #tpl_clan_clan, #tpl_clan_clanComment, #tpl_clan_clanMembers, #tpl_clan_clanLastActivity, #tpl_clan_clanBoardList {
+.section, .content>.section, .content>form, .sectionContainer {
+	border-top: 3px solid #ff9e19 !important;
+	border: 1px solid #e5e9f2;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);	
+}
+}
+
+#tpl_clan_clanPage, #tpl_clan_clan, #tpl_clan_clanComment, #tpl_clan_clanMembers, #tpl_clan_clanLastActivity, #tpl_clan_clanBoardList {
+.contentHeader .contentTitle, .boxHeadline .contentTitle, .contentHeader>h1, .boxHeadline>h1 {
+    padding: 20px;
+    border-radius: 8px;
+	border-top: 3px solid #0da9ef !important;
+	border: 1px solid #e5e9f2;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+	background: #fff;	
+	background-image: url("/media/1/");
+}
+}
+
+#tpl_clan_clanPage, #tpl_clan_clan, #tpl_clan_clanComment, #tpl_clan_clanMembers, #tpl_clan_clanLastActivity, #tpl_clan_clanBoardList {
+.content>.section .tabMenuContent>.section, .content>.section .tabMenuContent>form>.section {
+	padding: 20px;
+    border-radius: 8px;
+	border: 1px solid #e5e9f2;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+	background: #fff;	
+	background-image: url("/media/1/");
+}
+}
+
+#tpl_clan_clan {
+.boxesSidebarLeft .box:not(.boxBorderless) .boxContent, .boxesSidebarRight .box:not(.boxBorderless) .boxContent {
+	padding: 0px !important;
+}
+}
+
+.clanheader, .clandetail {
+	padding: 20px;
+	border: 1px solid #e5e9f2;
+}
+
+.clanheader {
+	background: #fff;	
+	background-image: url("/media/1/");
+	font-weight: bold;
+}
+
+.clanBannerDiv, .clanTitle {
+	display: none;
+}
+
+.clanNavigation {
+	margin-bottom: 20px;
+}
