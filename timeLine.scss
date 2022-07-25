@@ -1,13 +1,10 @@
 #tpl_wcf_user {
-	
 .containerList > li {
 	margin-top: 10px;
 	border-top: 3px solid #7dc9c5 !important;
     border: 2px solid #e5e9f2;
     border-radius: 8px;
 	background-color: #fff;
-	// background-image: url("/media/2/");
-	// background-size: cover;
 	padding: 20px;
 }
 	
@@ -29,4 +26,16 @@
 	border: none !important;
 }
 	
+@include screen-md-down {
+		
+.containerList>li:first-child, .containerList>li:last-child {
+	margin-top:	40px;
+}
+	
+.containerList > li {
+   border: 1px solid #e5e9f2;
+	background-color: #fff !important;
+	background-image: url("/media/2/");
+}	
+}
 }
