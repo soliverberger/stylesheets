@@ -1,0 +1,59 @@
+.customOptionList .optionCategories .categoryTitle, .customOption .optionCategories .categoryTitle {
+	background: #fafafa;
+	background-image: url("/media/1/");
+    color: #9cacbb;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+	border-top: 1px solid #d9dfe5;
+	border-bottom: 1px solid #d9dfe5;
+	margin: 0 !important;
+}
+
+.customOptionList {
+	border: 1px solid #d9dfe5;
+	box-shadow: 0 6px 6px -6px #777;
+	margin-bottom: 20px;
+}
+	
+.customOption {
+	padding: 20px;
+	background: #fff;
+	
+dl:not(.plain)>dd {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+	
+}
+	
+}
+
+#tpl_wbb_threadAdd {
+	
+.section, .content>.section, .content>form, .sectionContainer {
+		padding: 0 !important;
+	border: none !important;
+	}
+	
+.content>.section .section:not(:first-child), .content>form .section:not(:first-child), .sectionContainer .section:not(:first-child) {
+	margin-top: 50px !important;
+}
+	
+.optionCategories {
+	margin-bottom: 20px;
+	background: #000;
+}
+	
+.customOption {
+	padding: 20px;
+	border: 1px solid #d9dfe5;
+	box-shadow: 0 6px 6px -6px #777;
+}
+
+.customOptionList .optionCategories .categoryTitle, .customOption .optionCategories .categoryTitle {
+	margin: 0 !important;
+}
+	
+	
+}
