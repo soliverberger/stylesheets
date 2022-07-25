@@ -17,6 +17,18 @@
 	}
 }
 
+/* 
+@include screen-md-down {
+
+.footer-area-bottom {
+	border: 1px solid #9cacbb;
+	border-radius: 8px;
+	background-image: url("/media/1/");
+	padding: 30px;
+}
+}
+ */
+
 .footer-copyright {
 	margin-top: 50px;
 	text-align: center;
