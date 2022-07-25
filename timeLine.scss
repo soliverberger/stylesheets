@@ -1,0 +1,32 @@
+#tpl_wcf_user {
+	
+.containerList > li {
+	margin-top: 10px;
+	border-top: 3px solid #7dc9c5 !important;
+    border: 2px solid #e5e9f2;
+    border-radius: 8px;
+	background-color: #fff;
+	// background-image: url("/media/2/");
+	// background-size: cover;
+	padding: 20px;
+}
+	
+.containerList>li:first-child, .containerList>li:last-child {
+	margin-bottom: 20px !important;
+}
+	
+.timelineActivityItem {
+	margin: 20px 0 !important;
+	padding: 20px !important;
+}
+	
+.timelineActivityItem button, input[type="button"], input[type="reset"], input[type="submit"], .button, a.button {
+	border: none !important;
+	box-shadow: none !important;
+}
+	
+.timelineActivityItem .commentList .comment .box48 .commentResponseList {
+	border: none !important;
+}
+	
+}
