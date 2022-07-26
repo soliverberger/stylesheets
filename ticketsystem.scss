@@ -1,0 +1,19 @@
+#tpl_ticketsystem_category, #tpl_ticketsystem_ticket {
+.content>.section {
+	border: none !important;
+	box-shadow: none;
+    padding: 0;
+}
+	
+.ticketsystemCategoryList .ticketsystemCategory .ticketsystemCategoryHeader {
+	background: #fafafa;
+	background-image: url("/media/1/");
+	color: #9cacbb;
+
+.badge, a.badge {
+	margin-left: 5px;
+	background: #7DC9C5;
+	}
+}
+
+}
