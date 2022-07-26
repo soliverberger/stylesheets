@@ -1,0 +1,40 @@
+#tpl_wcf_categoryHelpList {
+
+.content > .section {
+	border: none !important;
+	padding: 0 !important;
+	box-shadow: none !important;
+}
+	
+.containerList > li .containerHeadline {
+	background: #fafafa;
+    background-image: url(/media/2/);
+    color: #9cacbb;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    border-top: 1px solid #d9dfe5;
+    border-left: 1px solid #d9dfe5;
+    border-right: 1px solid #d9dfe5;
+    border-radius: 8px 8px 0 0;
+}
+	
+.inlineList {
+	background: #fff;
+    border: 1px solid #e5e9f2;
+    border-radius: 0 0 8p 8px;
+    box-shadow: 0 6px 6px -6px #777;
+    padding: 20px;
+}
+	
+}
+
+.custom_ticketsystem .content > .section {
+	margin: 0 !important;
+	border-top: 3px solid #7dc9c5 !important;
+}
+
+.custom_ticketsystem .contentInteraction, .custom_ticketsystem .contentTitle {
+	display: none;
+}
