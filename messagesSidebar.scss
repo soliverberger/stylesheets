@@ -2,6 +2,11 @@
     border-radius: 5px;
 }
 
+.specialTrophyContainer>ul {
+    justify-content: left;
+
+}
+
 .messageSidebar .badge_admin {
     color: #6bbce4;
     font-weight: bold;
@@ -9,10 +14,23 @@
 
 .messageSidebar .badge_user {
 	color: #7f8c8d;
+	font-weight: bold;
 }
 
 .messageSidebar .badge_mod {
-	color: #e99a1f;
+	color: #d64434;
+}
+
+.messageSidebar .badge_system {
+	background: #369;
+	margin-top: 5px;
+
+&::before {
+	content: '\f121';
+    font-family: FontAwesome;
+    margin-right: 5px;
+    position: relative;
+}
 }
 
 .messageSidebar .badge_admin,
@@ -27,10 +45,6 @@
 }
 
   
-.trophySidebar {
-	margin: 20px 0px 0px 0px;
-}
-
 @include screen-sm-up {
 
 .userOnlineGroupMarking3 .messageSidebar {
@@ -42,7 +56,17 @@
 }
 
 .userOnlineGroupMarking5 .messageSidebar {
-	border: solid 1px #e99a1f;
+	border: solid 2px #d64434;
 }
+		
+}
+
+.userOnlineGroupMarking9 .messageSidebar {
+	text-align: center !important;
+	background: #fff !important;
+	border: 1px solid #fafafa !important;
 	
+	.dataList, .messageAuthorBackground, .messageAuthorContainer, .userOnline {
+		display: none;
+	}
 }
